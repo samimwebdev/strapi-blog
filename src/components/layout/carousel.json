@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_layout_carousels",
+  "info": {
+    "displayName": "blogCarousel",
+    "icon": "ankh",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tag.tag"
+    },
+    "selectionHeading": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

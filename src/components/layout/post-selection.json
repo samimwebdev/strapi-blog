@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_post_selections",
+  "info": {
+    "displayName": "PostSelection",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    }
+  }
+}

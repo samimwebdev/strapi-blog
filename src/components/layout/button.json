@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_buttons",
+  "info": {
+    "displayName": "Link",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
